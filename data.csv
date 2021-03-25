@@ -1,4 +1,4 @@
-name,ring,quadrant,isNew,description
+name,ring,quadrant,isNew,description,people
 Semantic Versioning,adopt,techniques,TRUE,"Correctly versioning software that makes sense to everyone using it isn't easy. Using a mature versioning scheme like <a href=""https://semver.org/"">Semantic Versioning</a> helps you version your software service APIs in a way that allows consumers of your service to easily understand the severity of the changes in the new version. It is important to remember that a corresponding git tag of the version should be applied to the commit in the VCS that the versioned artifact was built from."
 Pipelines as Code,adopt,techniques,TRUE,Pipelines as code is defining the build and deployment pipeline declaratively through code instead of configuring it in a specific CI/CD tooling.
 Pair Programming,adopt,techniques,TRUE,"<a href=""https://en.wikipedia.org/wiki/Pair_programming"">Pair Programming</a> is an Agile software development technique in which two programmers work together at some kind of shared workstation setup. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. We believe that although this may seem as an inefficient usage of our developers' time, the quality of the code produced leads to less time consuming problems later. Other benefits include improved knowledge and skills sharing and team communication."
@@ -36,8 +36,8 @@ Kotlin,assess,languages & frameworks,TRUE,"<a href=""http://kotlinlang.org/"">Ko
 GraphQL,assess,languages & frameworks,TRUE,"When we look at REST implementations in the wild, we frequently see REST misused to naively retrieve object graphs through chatty interactions between client and server. Facebook's <a href=""https://github.com/facebook/graphql"">GraphQL</a> is an interesting alternative to REST that might be a better approach for this very common use case. As a protocol for remotely retrieving object graphs, GraphQL has received enormous attention recently. One of GraphQL's most interesting features is its consumer-oriented nature: The structure of a response is driven entirely by the client, not the server. This decouples the consumer and forces the server to obey Postel's law. Client implementations are now available in many programming languages, but we have seen a flurry of interest of Facebook's Relay, a JavaScript framework that was designed to support the React.js stateless component model."
 FF4J,assess,languages & frameworks,TRUE,"It is becoming clear that using a Continuous Delivery process in conjunction with a platform comprising of a large suite of microservices requires a Feature Flag management tool to allow changes to be deployed but not necessarily released to an environment. FF4J was considered to be the leading free and supported tool for use with Java (https://ff4j.github.io/)."
 OracleJDK8,hold,languages & frameworks,TRUE,"Oracle's JDK8 reached 'End of Public Updates' in January 2019. Any new public updates will only be released for <strong>personal use only</strong> and <strong>should not be used</strong> by Sky in a commercial capacity! To avoid not being able to recieve security updates, move off OracleJDK8 and start using OpenJDK alternatives. Ideally OpenJDK11."
-CDK,hold,languages & frameworks,TRUE,
-ECS,hold,tools,TRUE,
-Weights & Biases,hold,tools,TRUE,
-PyCharm,hold,languages & frameworks,TRUE,
-Unit testing,hold,techniques,TRUE,
+CDK,hold,languages & frameworks,TRUE,Tim
+ECS,hold,tools,TRUE,Lucas
+Weights & Biases,hold,tools,TRUE,Niels
+PyCharm,hold,languages & frameworks,TRUE,Frank
+Unit testing,hold,techniques,TRUE,Parham
