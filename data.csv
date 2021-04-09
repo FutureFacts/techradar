@@ -41,3 +41,8 @@ ECS,adopt,tools,TRUE,Lucas
 Weights & Biases,trial,tools,TRUE,Niels
 PyCharm,adopt,platforms & frameworks,TRUE,Frank
 Unit testing,adopt,techniques,TRUE,Parham
+MLFlow,trial,platforms & frameworks,Bastiaan
+Cubeflow,trial,platforms & frameworks,
+seaborn / matplotlib,adopt,platforms & frameworks,
+d3.js,trial,platforms & frameworks,Omri
+
